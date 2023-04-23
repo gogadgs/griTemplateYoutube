@@ -194,16 +194,17 @@ aside{
     
     background: #FFFFFF;
 }
-aside nav ul li img{
+aside section ul li img{
     width:20px;
     height:20px;
-    margin:0 1.4rem;
+    float:left;
+    margin:0 1.6rem;
 }
-aside  nav ul li  {
+aside  section ul li  {
     grid-column: 1/1;
     text-decoration: none;
     list-style: none;
-    margin:1rem 0;
+    margin:1.5rem 0;
     width:15rem;
     
 }
