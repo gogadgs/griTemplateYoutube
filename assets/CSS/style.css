@@ -237,7 +237,7 @@ main section .conteudo{
     grid-area: main;
     display: grid;
     padding:24px;
-    margin:0 8rem 0 0;
+    margin:0 4rem 0 0;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(6,1fr);
     grid-template-areas: "main main ";
