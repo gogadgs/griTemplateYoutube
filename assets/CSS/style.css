@@ -210,13 +210,25 @@ aside  section ul li  {
 }
 
 
+aside section ul li:hover{
+    background:#4c6693;
+    color:#fff;
+    height:20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+
 
 
 /* seção do conteudo principal */
 main{
     margin:0;
     grid-area: main;
-    width:100%;
+    width:110%;
     height:590px;
     background-color:#F5F5F5;
     
@@ -225,6 +237,7 @@ main section .conteudo{
     grid-area: main;
     display: grid;
     padding:24px;
+    margin:0 8rem 0 0;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(6,1fr);
     grid-template-areas: "main main ";
